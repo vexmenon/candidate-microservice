@@ -1,0 +1,11 @@
+
+package com.ripplehire.candidate.constants;
+
+public interface SMSConstants
+{
+    String SMS_TEMPLATE_CD_FORGOT_PASSWORD_SMS = "FORGOT_PSWD_SMS";
+    String SMS_TEMPLATE_CD_ACTIVATE_ACCOUNT_SMS = "ACTIVATE_ACC_SMS";
+    String SMS_TEMPLATE_CD_WEEKLY_JOB_SMS = "WEEKLY_JOB_SMS";
+    String SMS_TEMPLATE_CD_WEEKLY_IJP_JOB_SMS = "WEEKLY_IJP_JOB_SMS";
+
+}

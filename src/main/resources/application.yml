@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: candidate-service
+
+  datasource:
+      username: root
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://35.229.239.168:3306/buddyto_sep_qa
+      password: Letsbounce123
+
+
+  jpa:
+      properties:
+        hibernate:
+          dialect: org.hibernate.dialect.MySQLDialect
+      show-sql: true
+
+server:
+  port: 8086
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka/
+  instance:
+    hostname: localhost
